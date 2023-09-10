@@ -10,7 +10,7 @@ import java.util.Date;
 public class Player {
     @Id
     @Column(nullable = false)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(length = 12,nullable = false)
