@@ -46,6 +46,7 @@ public class PlayerRepositoryDB implements IPlayerRepository {
            query.setMaxResults(pageSize);
            return query.list();
 
+
         }
 
     }
